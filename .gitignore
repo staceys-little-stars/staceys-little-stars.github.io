@@ -1,0 +1,87 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Static-site build output and caches
+dist/
+build/
+.cache/
+.parcel-cache/
+.vite/
+node_modules/
+
+# Hosting and deployment metadata
+.netlify/
+.vercel/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+credentials/
+private/
+_private/
+
+# Local drafts, notes, and source materials
+drafts/
+notes/
+scratch/
+source/
+source-docs/
+local/
+*.draft.*
+*.notes.*
+*.tmp
+*.bak
+
+# Documents and spreadsheets that should not be part of the public site
+*.doc
+*.docx
+*.odt
+*.rtf
+*.pdf
+*.xls
+*.xlsx
+*.csv
+*.tsv
+*.numbers
+*.pages
+*.ppt
+*.pptx
+
+# Screenshots and design/source exports
+screenshots/
+screen-captures/
+captures/
+screenshot-*
+*.screenshot.*
+*.psd
+*.ai
+*.sketch
+*.fig
+
+# Family, enrollment, and care-related private information
+child-info/
+parent-info/
+family-info/
+client-info/
+enrollment/
+intake/
+medical/
+emergency-contacts/
+*child-info*
+*parent-info*
+*family-info*
+*client-info*
+*enrollment*
+*intake*
+*medical*
+*emergency-contact*
