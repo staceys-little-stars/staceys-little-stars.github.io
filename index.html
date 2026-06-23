@@ -3,15 +3,21 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Stacey's Little Stars | Licensed In-Home Daycare</title>
+    <title>Stacey's Little Stars | Licensed In-Home Daycare in Bakersfield</title>
     <meta
       name="description"
-      content="Licensed in-home daycare in the New Shafter / Gossamer Grove area of Bakersfield. Full-time openings for ages 2-12. Meals included. Community Connection accepted."
+      content="Licensed in-home daycare in the New Shafter and Gossamer Grove area of Bakersfield. Full-time openings for ages 2-12, meals included, and Community Connection accepted."
     >
+    <meta name="theme-color" content="#4f7886">
+    <meta property="og:title" content="Stacey's Little Stars">
+    <meta property="og:description" content="Licensed in-home daycare for ages 2-12 in the New Shafter and Gossamer Grove area.">
+    <meta property="og:image" content="assets/logo.png">
     <link rel="preload" href="assets/logo.png" as="image">
     <link rel="stylesheet" href="src/styles.css">
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
     <header class="site-header">
       <a class="brand" href="#top" aria-label="Stacey's Little Stars home">
         <img class="brand__logo" src="assets/logo.png" alt="" width="56" height="56">
@@ -30,85 +36,120 @@
 
       <nav class="site-nav" id="site-nav" aria-label="Main navigation">
         <a href="#openings">Openings</a>
-        <a href="#about">About</a>
-        <a href="#hours-rate">Hours</a>
+        <a href="#care">Care</a>
+        <a href="#details">Details</a>
         <a href="#faq">FAQ</a>
         <a href="#contact">Contact</a>
-        <a class="button button--small" href="https://www.instagram.com/staceys_little_stars_daycare/" target="_blank" rel="noreferrer">Message us on Instagram</a>
+        <a class="button button--small" href="https://www.instagram.com/staceys_little_stars_daycare/" target="_blank" rel="noreferrer">Message</a>
       </nav>
     </header>
 
-    <main id="top">
-      <section class="hero section-band" aria-labelledby="hero-title">
-        <div class="hero__star hero__star--one" aria-hidden="true">+</div>
-        <div class="hero__star hero__star--two" aria-hidden="true">+</div>
-        <div class="hero__star hero__star--three" aria-hidden="true">+</div>
+    <main id="main">
+      <section class="hero section-band" id="top" aria-labelledby="hero-title">
+        <div class="hero__sparkle hero__sparkle--one" aria-hidden="true"></div>
+        <div class="hero__sparkle hero__sparkle--two" aria-hidden="true"></div>
+        <div class="hero__sparkle hero__sparkle--three" aria-hidden="true"></div>
 
         <div class="container hero__content">
-          <div class="eyebrow">Licensed in-home daycare · License #155620876</div>
-          <h1 id="hero-title">Stacey's Little Stars</h1>
-          <p class="hero__location">Licensed in-home daycare in the New Shafter / Gossamer Grove area</p>
-          <p class="hero__lead">A cozy place for kids to learn, play, and thrive.</p>
-          <a class="button" href="https://www.instagram.com/staceys_little_stars_daycare/" target="_blank" rel="noreferrer">Message us on Instagram</a>
-
-          <div class="trust-grid" aria-label="Daycare highlights">
-            <article class="trust-card">
-              <strong>Licensed care</strong>
-              <span>Licensed in-home daycare · License #155620876</span>
-            </article>
-            <article class="trust-card">
-              <strong>Ages 2-12</strong>
-              <span>Care for toddlers through school-age children.</span>
-            </article>
-            <article class="trust-card">
-              <strong>Meals included</strong>
-              <span>Meals and snacks are part of the daily routine.</span>
-            </article>
-            <article class="trust-card">
-              <strong>Community Connection accepted</strong>
-              <span>Support is welcome for eligible families.</span>
-            </article>
-            <article class="trust-card">
-              <strong>Full-time openings</strong>
-              <span>Consistent weekly schedules only.</span>
-            </article>
+          <div class="hero__copy">
+            <div class="eyebrow">Licensed in-home daycare &middot; License #155620876</div>
+            <h1 id="hero-title">Stacey's Little Stars</h1>
+            <p class="hero__location">New Shafter / Gossamer Grove area of Bakersfield</p>
+            <p class="hero__lead">
+              Warm, steady full-time care for children ages 2-12, with meals included and a daily rhythm built around learning, play, and confidence.
+            </p>
+            <div class="hero__actions" aria-label="Primary actions">
+              <a class="button" href="https://www.instagram.com/staceys_little_stars_daycare/" target="_blank" rel="noreferrer">Message on Instagram</a>
+              <a class="button button--secondary" href="#openings">View openings</a>
+            </div>
           </div>
+
+          <div class="availability-panel" aria-label="Current availability">
+            <span>Current availability</span>
+            <strong>2 full-time spots open now</strong>
+            <p>A 3rd full-time spot is expected when the school year starts in August 2026.</p>
+          </div>
+
+          <ul class="hero__facts" aria-label="Daycare highlights">
+            <li>Licensed care</li>
+            <li>Ages 2-12</li>
+            <li>Meals included</li>
+            <li>Community Connection accepted</li>
+          </ul>
         </div>
       </section>
 
       <section class="section" id="openings" aria-labelledby="openings-title">
-        <div class="container split">
-          <div>
+        <div class="container">
+          <div class="section-header">
             <span class="section-kicker">Openings</span>
-            <h2 id="openings-title">Full-time spots are open now.</h2>
+            <h2 id="openings-title">Clear availability for full-time care.</h2>
+            <p>
+              Stacey's Little Stars is currently filling consistent full-time schedules for families who want a dependable weekly routine.
+            </p>
           </div>
-          <p class="callout">
-            We currently have 2 full-time spots open for ages 2-12, with a 3rd full-time spot opening when school starts in August.
-          </p>
+
+          <div class="status-grid">
+            <article class="status-card">
+              <span>Open now</span>
+              <strong>2 full-time spots</strong>
+              <p>Available for children ages 2-12.</p>
+            </article>
+            <article class="status-card">
+              <span>Coming next</span>
+              <strong>1 more full-time spot</strong>
+              <p>Expected when the school year starts in August 2026.</p>
+            </article>
+            <article class="status-card">
+              <span>Schedule fit</span>
+              <strong>Full-time only</strong>
+              <p>Consistent weekly care helps keep the group routine calm and predictable.</p>
+            </article>
+          </div>
         </div>
       </section>
 
-      <section class="section section--soft" id="about" aria-labelledby="about-title">
+      <section class="section section--soft" id="care" aria-labelledby="care-title">
         <div class="container content-grid">
           <div>
-            <span class="section-kicker">About</span>
-            <h2 id="about-title">Warm, family-style care in a cozy home setting.</h2>
+            <span class="section-kicker">Care Approach</span>
+            <h2 id="care-title">Cozy, family-style care with a steady rhythm.</h2>
           </div>
           <div class="copy-stack">
             <p>
-              Stacey's Little Stars is a licensed in-home daycare with play, simple activities, outdoor time, meals, snacks, and a steady daily rhythm.
+              This is a licensed in-home daycare where children can settle into a warm, familiar environment with play, simple activities, outdoor time, meals, snacks, and room to build confidence.
             </p>
             <p>
-              The goal is a calm, welcoming routine where kids can feel comfortable, build confidence, and enjoy their day.
+              The goal is simple: help each child feel safe, known, and ready to enjoy their day.
             </p>
           </div>
         </div>
+
+        <div class="container feature-grid" aria-label="What families can expect">
+          <article class="feature-card">
+            <span>Daily care</span>
+            <strong>Play, activities, and outdoor time</strong>
+            <p>A balanced day that gives kids structure without losing the cozy home feeling.</p>
+          </article>
+          <article class="feature-card">
+            <span>Food</span>
+            <strong>Meals and snacks included</strong>
+            <p>Families do not need to plan around separate meal and snack fees.</p>
+          </article>
+          <article class="feature-card">
+            <span>Communication</span>
+            <strong>Easy Instagram inquiries</strong>
+            <p>Send the basics once, then Stacey can follow up with fit and next steps.</p>
+          </article>
+        </div>
       </section>
 
-      <section class="section" id="hours-rate" aria-labelledby="hours-rate-title">
+      <section class="section" id="details" aria-labelledby="details-title">
         <div class="container">
-          <span class="section-kicker">Hours + Rate</span>
-          <h2 id="hours-rate-title">Simple details for full-time care.</h2>
+          <div class="section-header">
+            <span class="section-kicker">Details</span>
+            <h2 id="details-title">The practical information, all in one place.</h2>
+          </div>
 
           <div class="info-grid">
             <article class="info-card">
@@ -120,6 +161,10 @@
               <strong>$53/day</strong>
             </article>
             <article class="info-card">
+              <span>Ages served</span>
+              <strong>2-12 years</strong>
+            </article>
+            <article class="info-card">
               <span>Schedule</span>
               <strong>Full-time openings only</strong>
             </article>
@@ -127,98 +172,92 @@
               <span>Meals/snacks</span>
               <strong>Included</strong>
             </article>
+            <article class="info-card">
+              <span>Support</span>
+              <strong>Community Connection accepted</strong>
+            </article>
           </div>
-        </div>
-      </section>
 
-      <section class="section section--soft" id="ages" aria-labelledby="ages-title">
-        <div class="container split">
-          <div>
-            <span class="section-kicker">Ages Served</span>
-            <h2 id="ages-title">Ages 2-12.</h2>
-          </div>
-          <p>
-            Stacey's Little Stars is currently serving children ages 2-12 and is not currently marketing infant/baby spots.
-          </p>
-        </div>
-      </section>
-
-      <section class="section" id="meals-support" aria-labelledby="meals-support-title">
-        <div class="container content-grid">
-          <div>
-            <span class="section-kicker">Meals + Support</span>
-            <h2 id="meals-support-title">Meals, snacks, and Community Connection.</h2>
-          </div>
-          <p>
-            Meals and snacks are included. Community Connection is accepted for families using that support.
-          </p>
-        </div>
-      </section>
-
-      <section class="section section--soft" id="school-bus" aria-labelledby="school-bus-title">
-        <div class="container split">
-          <div>
+          <aside class="service-note" aria-labelledby="school-bus-title">
             <span class="section-kicker">School Bus Note</span>
-            <h2 id="school-bus-title">Nearby bus stop support may be available.</h2>
-          </div>
-          <p>
-            No school pickup/dropoff by car. Bus support may be available for Veterans Elementary and Norris Middle School because nearby bus stops are close to the home.
-          </p>
+            <h3 id="school-bus-title">Nearby bus stop support may be available.</h3>
+            <p>
+              Stacey's Little Stars does not provide school pickup or dropoff by car. Bus support may be available for Veterans Elementary and Norris Middle School because nearby bus stops are close to the home.
+            </p>
+          </aside>
         </div>
       </section>
 
-      <section class="section" id="testimonials" aria-labelledby="testimonials-title">
-        <div class="container">
-          <span class="section-kicker">Testimonials</span>
-          <h2 id="testimonials-title">Kind words from families.</h2>
-          <div class="testimonial-grid">
-            <blockquote>Parent testimonial coming soon.</blockquote>
-            <blockquote>Parent testimonial coming soon.</blockquote>
+      <section class="section section--soft" id="inquiry" aria-labelledby="inquiry-title">
+        <div class="container split">
+          <div>
+            <span class="section-kicker">Inquiries</span>
+            <h2 id="inquiry-title">Send the basics for a faster reply.</h2>
+          </div>
+          <div class="inquiry-list" aria-label="What to include when messaging">
+            <div>
+              <span>1</span>
+              <p>Your child's age.</p>
+            </div>
+            <div>
+              <span>2</span>
+              <p>The schedule you need.</p>
+            </div>
+            <div>
+              <span>3</span>
+              <p>Your hoped-for start date.</p>
+            </div>
+            <div>
+              <span>4</span>
+              <p>Whether you plan to use Community Connection.</p>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="section section--soft" id="faq" aria-labelledby="faq-title">
+      <section class="section" id="faq" aria-labelledby="faq-title">
         <div class="container">
-          <span class="section-kicker">FAQ</span>
-          <h2 id="faq-title">Quick answers for families.</h2>
+          <div class="section-header">
+            <span class="section-kicker">FAQ</span>
+            <h2 id="faq-title">Quick answers for families.</h2>
+          </div>
 
           <div class="faq-list">
             <details>
               <summary>Do you have openings?</summary>
-              <p>Yes, 2 full-time spots now and a 3rd when school starts in August.</p>
+              <p>Yes. There are 2 full-time spots open now, with a 3rd full-time spot expected when the school year starts in August 2026.</p>
             </details>
             <details>
-              <summary>What ages?</summary>
-              <p>Ages 2-12.</p>
+              <summary>What ages do you serve?</summary>
+              <p>Stacey's Little Stars currently serves children ages 2-12.</p>
             </details>
             <details>
-              <summary>Hours?</summary>
+              <summary>What are the hours?</summary>
               <p>Generally 7am-5pm.</p>
             </details>
             <details>
-              <summary>Rate?</summary>
-              <p>$53/day.</p>
+              <summary>What is the rate?</summary>
+              <p>The current rate is $53/day.</p>
             </details>
             <details>
-              <summary>Part-time?</summary>
-              <p>We are currently filling full-time openings only to keep a consistent weekly schedule.</p>
+              <summary>Do you offer part-time care?</summary>
+              <p>Openings are currently full-time only to keep a consistent weekly routine.</p>
             </details>
             <details>
-              <summary>Meals?</summary>
-              <p>Yes, meals and snacks are included.</p>
+              <summary>Are meals included?</summary>
+              <p>Yes. Meals and snacks are included.</p>
             </details>
             <details>
-              <summary>Community Connection?</summary>
-              <p>Yes.</p>
+              <summary>Do you accept Community Connection?</summary>
+              <p>Yes. Community Connection is accepted.</p>
             </details>
             <details>
-              <summary>School pickup?</summary>
-              <p>No car pickup/dropoff. Bus support may be available for Veterans Elementary and Norris Middle School.</p>
+              <summary>Do you provide school pickup or dropoff?</summary>
+              <p>No car pickup or dropoff is provided. Bus support may be available for Veterans Elementary and Norris Middle School because nearby bus stops are close to the home.</p>
             </details>
             <details>
-              <summary>How to inquire?</summary>
-              <p>Message us on Instagram with child's age, schedule needed, and hoped-for start date.</p>
+              <summary>How do I inquire?</summary>
+              <p>Message on Instagram with your child's age, schedule needed, hoped-for start date, and whether you plan to use Community Connection.</p>
             </details>
           </div>
         </div>
@@ -228,8 +267,8 @@
         <div class="container contact__inner">
           <span class="section-kicker">Contact</span>
           <h2 id="contact-title">Ready to ask about a full-time spot?</h2>
-          <p>Send a message on Instagram with your child's age, schedule needed, and hoped-for start date.</p>
-          <a class="button" href="https://www.instagram.com/staceys_little_stars_daycare/" target="_blank" rel="noreferrer">Message us on Instagram</a>
+          <p>Send a message on Instagram with the basics, and Stacey can follow up with fit and next steps.</p>
+          <a class="button" href="https://www.instagram.com/staceys_little_stars_daycare/" target="_blank" rel="noreferrer">Message on Instagram</a>
         </div>
       </section>
     </main>
@@ -238,10 +277,13 @@
       <div class="container footer__inner">
         <div>
           <strong>Stacey's Little Stars</strong>
-          <span>Licensed in-home daycare · License #155620876</span>
-          <span>New Shafter / Gossamer Grove area.</span>
+          <span>Licensed in-home daycare &middot; License #155620876</span>
+          <span>New Shafter / Gossamer Grove area of Bakersfield</span>
         </div>
-        <a href="https://www.instagram.com/staceys_little_stars_daycare/" target="_blank" rel="noreferrer">Instagram</a>
+        <div class="footer__links">
+          <span>&copy; <span data-year>2026</span></span>
+          <a href="https://www.instagram.com/staceys_little_stars_daycare/" target="_blank" rel="noreferrer">Instagram</a>
+        </div>
       </div>
     </footer>
 
